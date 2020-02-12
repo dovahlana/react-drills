@@ -91,8 +91,8 @@ class App extends Component {
 
     this.state = {
       foods: ["spaghetti", "ice cream", "sushi", "bologna", "cheese"]
-    };
-  }
+    }
+  };
 
   render() {
     let foodsToDisplay = this.state.foods.map((element, index) => {
@@ -350,7 +350,7 @@ class App extends Component {
   handleAddTask() {
     this.setState({
       list: [...this.state.list, this.state.input],
-      input: ""
+      input: ''
     });
   }
 
